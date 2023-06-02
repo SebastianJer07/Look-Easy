@@ -1,0 +1,82 @@
+body {
+	width: 100%;
+    height:  100vh;
+    overflow: hidden;
+    font-family: "Josef  in Sans", sans-serif;
+    background: rgb(131, 58, 176);
+    background: linear-gradient(
+        135deg,
+        rgba(131, 58, 176, 1) 25%,
+        rgba(63, 94, 251, 1) 75%
+    );
+}
+.pago {
+	background: #333;
+	padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(17, 17, 17, 0.24);
+	width: 100%;
+    max-width: 250px;
+	height: 80%;
+}
+
+.pago input {
+    font-family: "Josefin Sans", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+    margin: 0 0 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(131, 58, 176, 1) 25%,
+        rgb(7, 42, 221) 75%);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+a {
+        color: #fff;
+text-decoration: none;
+}
+
+.pago a:hover,
+.pago a:active,
+.pago a:focus {
+    background: #0e2941;
+    text-decoration: underline;
+}
+
+h1{
+	text-align: center;
+    color: #f2f2f2;
+	justify-content: center;
+}
+
+h2 {
+    color: #f2f2f2;
+	justify-content: center;
+}
+
+h3{
+	text-align: center;
+	
+}
