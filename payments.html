@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/styles_payments.css">
+</head>
+
+<body>
+    
+    <div class="Formulario">
+        <form class="pago" method="post">
+            <h1 class="titulo">Pagar con tarjeta de crédito o débito</h1>
+            
+            <div class="field">
+                <label for="numero-tarjeta">Número de Tarjeta</label>
+                    <input type="text" id="numero-tarjeta" placeholder="Ingresa el número de tarjeta" required>
+                </div>
+
+                <div class="field">
+                    <label for="fecha-nacimiento">Fecha de Nacimiento</label>
+                    <input type="date" id="fecha-nacimiento" required>
+                </div>
+
+                <div class="field">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" placeholder="Ingresa el CVV" required>
+                </div>
+
+                <div class="field">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+                </div>
+
+                <div class="field">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Ingresa tu apellido" required>
+                </div>
+
+                <button type="submit" name="send">Iniciar Membresía</button>
+            </form>
+        </div>
+</body>
+
+</html>

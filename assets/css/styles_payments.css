@@ -1,0 +1,101 @@
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Josefin Sans", sans-serif;
+    background: rgb(131, 58, 176);
+    background: linear-gradient(
+        135deg,
+        rgba(131, 58, 176, 1) 25%,
+        rgba(63, 94, 251, 1) 75%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pago {
+    background: #333;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2),
+        0 5px 5px 0 rgba(17, 17, 17, 0.24);
+    width: 100%;
+    max-width: 400px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.field {
+    display:block;
+    margin-bottom: 6px;
+}
+
+label {
+    font-family: "Josefin Sans", sans-serif;
+    color: #f2f2f2;
+    text-align: left;
+    margin-bottom: 5px;
+    display: z;
+}
+
+input {
+    font-family: "Josefin Sans", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+    margin: 5px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(131, 58, 176, 1) 25%,
+        rgb(7, 42, 221) 75%
+    );
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+button {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: #4f8c9c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:active,
+button:focus {
+    background-color: #30677b;
+}
+
+h1 {
+    text-align: center;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}
